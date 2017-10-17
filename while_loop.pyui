@@ -1,0 +1,88 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "count_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "462DACCD-5BD0-40C6-A266-BFF320FBC9FA"
+        },
+        "frame" : "{{22, 240}, {399, 39}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "autocorrection_type" : "default",
+          "name" : "user_input_textbox",
+          "class" : "TextField",
+          "alignment" : "center",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "BED09B4C-7238-4C66-B3D2-431BD6442C6F"
+        },
+        "frame" : "{{106, 149}, {200, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Calculate",
+          "name" : "calculate_button",
+          "action" : "calculate_factorial_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "uuid" : "5B22796C-325C-4DF2-B880-00D6B24D510A"
+        },
+        "frame" : "{{153, 200}, {101, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Enter an integer greater than 0 to calculate its factorial.",
+          "font_name" : "<System>",
+          "name" : "question_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "CAC5C4FD-086E-4180-BE2F-2183E8F12B07"
+        },
+        "frame" : "{{22, 78}, {449, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
