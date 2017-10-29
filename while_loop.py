@@ -19,11 +19,12 @@ def calculate_factorial_touch_up_inside(sender):
     if user_input < 0:
     	 #output
        view['count_label'].text = "Please enter a non negative value."
+       #https://stackoverflow.com/questions/21696310/what-does-return-mean-in-python
        return
        
     while counter <= user_input:
           current_factorial_value = counter * current_factorial_value      
-          counter = counter + 1   # else: 
+          counter = counter + 1   
     #output          
     view['count_label'].text = "The factorial is: " + str(current_factorial_value)
 
